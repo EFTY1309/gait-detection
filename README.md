@@ -32,3 +32,7 @@ python recognize.py --video data/query_videos/test.mp4
 ```
 
 Output video is saved to `output/test_recognized.mp4`.
+
+comamands 
+
+python -c "from src.gallery_manager import load_gallery, gallery_summary; print(gallery_summary(load_gallery('gallery/gallery.pkl')))"
